@@ -50,7 +50,7 @@ namespace Labb2_Advanced_LINQ.Controllers
 
             foreach (var item in subjectP)
             {
-                Console.WriteLine(item.Name);
+                Console.WriteLine($"The courseplan does contain {item.Name}");
             }
         }
 

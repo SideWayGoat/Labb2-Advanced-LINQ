@@ -14,7 +14,6 @@ namespace Labb2_Advanced_LINQ.Controllers
             bool isRunning = true;
             while (isRunning)
             {
-                Console.WriteLine("The user menu");
                 Menu();
                 if(int.TryParse(Console.ReadLine(), out int navigate))
                 {
@@ -58,7 +57,7 @@ namespace Labb2_Advanced_LINQ.Controllers
             Console.WriteLine("[1] All Teachers that teach math\n[2] Get all students and their teacher\n" +
                 "[3] Does the courseplan contains programmering 1?\n" +
                 "[4] Edit the coursename from programmering 2 to OOP\n" +
-                "[5] Update students teacher from Anas to Reidar\n [6] Exit Program");
+                "[5] Update students teacher from Anas to Reidar\n[6] Exit Program");
         }
     }
 }
