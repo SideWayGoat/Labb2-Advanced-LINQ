@@ -9,7 +9,15 @@ namespace Labb2_Advanced_LINQ
             //UIControllers.getMathTeacher();
 
 
-            UIControllers.studentsWithTeachers();
+            //UIControllers.studentsWithTeachers();
+
+            //UIControllers.contiansProgram();
+
+            //UIControllers.fromAnasToReidar();
+
+            //UIControllers.updateSubject();
+
+            UI.UserMenu();
         }
     }
 }
